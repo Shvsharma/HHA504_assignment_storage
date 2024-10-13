@@ -19,7 +19,7 @@ from PIL import Image
 import io
 import os
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r"'C:\path_to_your_gcp_credentials'"
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = r"C:\Users\shvet\OneDrive\Desktop\SBU Fall2024\HHA504_Assignments\module 6\shveta-sharma-hha504-fe3cfe0e6981.json"
 
 
 client = storage.Client()
@@ -81,7 +81,8 @@ from azure.storage.blob import BlobServiceClient, BlobClient, ContainerClient
 import os
 
 
-connection_string = your_azure_storage_connection_string
+connection_string = 'DefaultEndpointsProtocol=https;AccountName=teststoragehha504;AccountKey=EVzjHy0f5NvFksYT3yfhbTHKHmtg7pKm14tRj7SMrhvEoy/1s8bTn52YuRb411gj3iI7FXSswR0Z+ASt5O4N0A==;EndpointSuffix=core.windows.net'  # Replace with your Azure Storage connection string'
+
 
 
 blob_service_client = BlobServiceClient.from_connection_string(connection_string)
